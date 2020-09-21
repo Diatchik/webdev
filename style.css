@@ -34,13 +34,13 @@ h1{
 
 
 header ul {
-    width: 582px;
+    width: 583px;
     height: 45px;
     display: flex;
     flex-flow: row;
     justify-content: space-between;
     align-items: center;
-    padding: 26px 0;
+    padding: 25px 3px;
     margin-left: 500px;
 }
 
@@ -54,12 +54,12 @@ header a{
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 14px;
-    line-height: 20px;
+    font-size: 13px;
+    line-height: 16px;
     color: #FFFFFF;
     opacity: 0.8;
     text-decoration: none;
-    letter-spacing: 1px;
+    letter-spacing: 0.5px;
 }
 
 
@@ -74,6 +74,10 @@ header a:hover {
     border-bottom:1.2px solid #FFFFFF;
     opacity: 1;
     font-weight: bold;
+}
+
+header .logo {
+    margin: 0 15px 0 15px;
 }
 
 .caption {
@@ -394,7 +398,7 @@ header a:hover {
 
 .subscribe {
     background-image: url(assets/subscribe-image-bg.png);
-    height: 598px;
+    height: 524px;
 }
 
 
@@ -402,7 +406,7 @@ header a:hover {
     width: 406px;
     height: 104px;
     margin-left: 597px;
-    margin-top: 217px;
+    margin-top: 200px;
     display: flex;
     flex-flow: column;
     justify-content: space-between;
@@ -469,19 +473,19 @@ header a:hover {
 
 
 .download {
-    height: 468px;
+    height: 464px;
     background: #F5F6F7;
 }
 
 
 .download-content {
-    width: 483px;
-    height: 168px;
+    width: 480px;
+    height: 164px;
     display: flex;
     flex-flow: column;
     justify-content: space-between;
     margin-top: 120px;
-    margin-left: 559px;
+    margin-left: 560px;
 }
 
 
@@ -506,14 +510,14 @@ header a:hover {
     line-height: 20px;
     text-align: center;
     color: #4E4E4E;
-    margin-bottom: 7px;
+    margin-bottom: 9px;
 }
 
 
 .download-content-app {
     margin: 0 auto;
-    width: 406px;
-    height: 50px;
+    width: 402px;
+    height: 46px;
     display: flex;
     flex-flow: row;
     justify-content: space-between;
@@ -522,8 +526,8 @@ header a:hover {
 
 .apple-store,
 .play-market  {
-    width: 188px;
-    height: 50px;
+    width: 186px;
+    height: 46px;
     display: flex;
     flex-flow: row;
 }
@@ -531,7 +535,7 @@ header a:hover {
 
 .apple-store-text,
 .play-market-text  {
-    width: 128px;
+    width: 127px;
     background: #00AFDB;
 }
 
@@ -541,12 +545,12 @@ header a:hover {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: bold;
-    font-size: 13px;
-    line-height: 15px;
+    font-size: 12px;
+    line-height: 14px;
     text-transform: uppercase;
     color: #FFFFFF;
     text-align: center;
-    margin-top: 19px;
+    margin-top: 17px; 
 }
 
 
@@ -559,7 +563,7 @@ header a:hover {
 
 .apple-store-icon,
 .play-market-icon {
-    width: 60px;
+    width: 59px;
     background: #009CC2;
 }
 
@@ -568,8 +572,8 @@ header a:hover {
 #play-market-img {
     width: 17px;
     height: 20px;
-    margin-left: 22px;
-    margin-top: 15px;
+    margin-left: 21px;
+    margin-top: 13px;
 }
 
 
@@ -602,7 +606,7 @@ header a:hover {
     height: 16px;
     display: flex;
     flex-flow: row;
-    margin-top: 14px;
+    margin-top: 13px;
 }
 
 
